@@ -6,7 +6,9 @@ bin-release/
 
 # Other files and folders
 .settings/
-
+# directories and files containing the string `egg-info` or `dist` in their name as well.  
+.string/
+*.'egg-info'
 # Executables
 *.swf
 *.air
