@@ -8,7 +8,10 @@ bin-release/
 .settings/
 # directories and files containing the string `egg-info` or `dist` in their name as well.  
 .string/
-*.'egg-info'
+egg-info
+*.vscode
+dist
+__pycache__
 # Executables
 *.swf
 *.air
